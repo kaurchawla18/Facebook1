@@ -875,3 +875,40 @@ main{
     position: relative;
     top: -10px;
 }
+.room{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.roomicon{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    /* margin-left: 20px; */
+}
+.roomicon a{
+    text-decoration: none;
+    color: #FA383E;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    padding: 5px;
+    border-radius: 25px;
+
+}
+
+.roomicon img{
+    background-color: transparent;
+}
+.persons{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    /* margin-right: 20px; */
+}
+.persons img{
+    margin-left: 10px;
+}
