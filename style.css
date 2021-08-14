@@ -75,7 +75,7 @@ header{
      background-color: black;
      position:absolute;
      top: 23px;
-     left: 55px;
+     left: 45px;
 }
 
 .icons  img{
@@ -142,14 +142,10 @@ header{
     background-color: white;
     text-decoration: none;
 }
-/* .forset{
-    margin-left: 70px;
-} */
 
 .account img{
     margin-top: 10px;
     margin-left: 5px;
-    /* margin-right: 5px; */
 }
 .account  span{
     position: relative;
@@ -180,7 +176,7 @@ header{
     border-radius: 50%;
 }
 .belllss{
-    margin-right: 10px;
+    margin-right: 30px;
 }
 main{
     display: grid;
@@ -192,7 +188,6 @@ main{
     grid-area: l;
 }
 .rsb{
-    /* background-color: red; */
     grid-area: r;
 }
 .cb{
@@ -239,6 +234,8 @@ main{
     font-size: 20px;
     font-weight: 800;
     cursor: pointer;
+    position: relative;
+    left: 80px;
     margin-left: 70px;
 }
 .sponsor1{
@@ -422,9 +419,8 @@ main{
 /*********************************** Center Part *********************************/
 .centerpart{
    margin-top: 1rem;
-   /* background-color: white; */
 } 
-.cupper{
+/* .cupper{
     display: flex;
     justify-content: space-between;
 }
@@ -453,7 +449,7 @@ main{
 }
 .cdown img{
     /* margin-right: 2rem; */
-    border: 2px solid rgb(203, 198, 198);
+    /* border: 2px solid rgb(203, 198, 198);
     padding-left: 7px;
     padding-right: 7px;
     background-color:rgb(203, 198, 198);
@@ -463,10 +459,11 @@ main{
     position: relative;
     left: 70px;
     width: 500px;
-}
+} */ 
 /**********************************************Story 1***********************************/
 .stories{
     display: flex;
+    margin-top: 1rem;
 }
 .storyy1 a img:hover{
     /* transform: scale(1.2); */
@@ -479,10 +476,10 @@ main{
 .stories #story1{
     height: 27vh;
     object-fit: cover;
-    width: 120px;
+    width: 110px;
     position: relative;
-    left: -5px;
-    margin-left: 5rem;
+    /* left: -26px; */
+    /* margin-left: 5rem; */
     border-bottom: 50px solid white;
     border-radius: 15px;
 }
@@ -503,12 +500,12 @@ main{
     border-radius: 50%;
     position: relative;
     top: -75px;
-    left: 55px;
+    left: 34px;
 }
 .circle img{
     position: absolute;
     top: -73px;
-    left: 57px;
+    left: 36px;
     background-color: transparent;
 }
 .circle span{
@@ -518,7 +515,7 @@ main{
     position: absolute;
     background-color: transparent;
     top: -30px;
-    left: 35px;
+    left: 10px;
 }
 /********************************************** Story 2 ****************************************/
 .storyy2{
@@ -531,20 +528,19 @@ main{
     font-size: 15px;
     font-weight: 500;
     position: relative;
-    left: 29px;
     top: -50px;
+    left: 17px;
     background-color: transparent;
 }
 
 .stories #story2{
     height: 27vh;
     object-fit: cover;
-    width: 120px;
+    width: 110px;
     position: relative;
-    left: 20px;
-    border-radius: 15px;
-    margin-left: 0;
-    
+    left: 10px;
+    /* left: -15px; */
+    border-radius: 15px;    
 }
 .stories #story2:hover{
     /* -webkit-filter: grayscale(20%);
@@ -562,7 +558,7 @@ main{
 .storyy2 .outer img{
     position: absolute;
     top: 10px;
-    left: 29px;
+    left: 17px;
     border: 3px solid #1877F2;
     height: 40px;
     width: 40px;
@@ -580,7 +576,7 @@ main{
     font-size: 15px;
     font-weight: 500;
     position: relative;
-    left: 39px;
+    left: 10px;
     top: -50px;
     background-color: transparent;
 }
@@ -588,11 +584,10 @@ main{
 .stories #story3{
     height: 27vh;
     object-fit: cover;
-    width: 120px;
+    width: 110px;
     position: relative;
-    left: 20px;
+    /* left: -5px; */
     border-radius: 15px;
-    margin-left: 8px;
 }
 .stories #story3:hover{
     /* -webkit-filter: grayscale(20%);
@@ -610,16 +605,13 @@ main{
 .storyy3 .outer1 img{
     position: absolute;
     top: 10px;
-    left: 39px;
+    left: 10px;
     border: 3px solid #1877F2;
     height: 40px;
     width: 40px;
     object-fit: cover;
     border-radius: 50%;
 }
-/* .circle img{
- background-color: red;
-} */
 /************************************** Story 4 ******************************************/
 .storyy4{
     position: relative;
@@ -631,7 +623,6 @@ main{
     font-size: 15px;
     font-weight: 500;
     position: relative;
-    left: 45px;
     top: -50px;
     background-color: transparent;
 }
@@ -639,9 +630,9 @@ main{
 .stories #story4{
     height: 27vh;
     object-fit: cover;
-    width: 120px;
+    width: 110px;
     position: relative;
-    left: 33px;
+    left: -10px;
     /* background: linear-gradient(transparent,rgba(0,0,0,0.5));  */
     border-radius: 15px;
 }
@@ -661,7 +652,6 @@ main{
 .storyy4 .outer1 img{
     position: absolute;
     top: 10px;
-    left: 45px;
     border: 3px solid #1877F2;
     height: 40px;
     width: 40px;
@@ -750,18 +740,21 @@ main{
 .containers{
     background-color: white;
     border-radius: 10px;
-    /* margin-left: 80px; */
 }
 .inputbox{
     display: flex;
     background-color: white;
-    padding: 15px;
+    width: 500px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0.8em;
+    padding-right: 2.5em;
     border-top-left-radius: 20px;
     border-top-right-radius: 10px;
 }
 .inputbox input{
-    margin-left: 15px;
-    width: 450px;
+    margin-left: 10px;
+    width: 400px;
     height: 40px;
     border-radius: 20px;
     padding-left: 15px;
@@ -816,13 +809,11 @@ main{
     background-color: white;
     border-radius: 10px;
     padding: 15px;
-    margin-left: 1rem;
 }
 .roomicon{
     display: flex;
     background-color: white;
     border-radius: 10px;
-    /* margin-left: 20px; */
 }
 .roomicon a{
     text-decoration: none;
@@ -831,7 +822,7 @@ main{
     display: flex;
     align-items: center;
     border: 2px solid grey;
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 25px;
 }
 .roomicon a:hover{
@@ -847,7 +838,6 @@ main{
     background-color: white;
     border-radius: 10px;
     position: relative;
-    /* margin-right: 20px; */
 }
 .persons a{
     text-decoration: none;
@@ -874,7 +864,8 @@ main{
 .mainpost{
     background-color: white;
     border-radius: 10px;
-    margin-left: 1rem;
+    width: 500px;
+    /* margin-left: 1rem; */
 }
 .upprpst{
     background-color: white;
@@ -923,7 +914,7 @@ main{
     background-color: white;
 }
 .centerpost img{
-    width: 550px;
+    width: 500px;
     height: 75vh;
     object-fit: cover;
 }
