@@ -3,9 +3,11 @@
     margin: 0;
     box-sizing: border-box;
     background-color: rgb(235, 231, 231);
+  
 }
 header{
-    position: sticky;
+    /* position: sticky; */
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
@@ -237,8 +239,10 @@ main{
 /**********************************************Right Sidebar**************************************/
 .rightsidebar{
     margin-top: 1rem;
-    margin-right: 1.5rem;
-    right: 0;
+    /* margin-right: 1.5rem; */
+    /* right: 0; */
+    overflow-x: hidden;
+    margin-left: auto;
     display: flex;
     flex-direction: column;
 }
@@ -246,6 +250,7 @@ main{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: 800;
+    background-color: transparent;
     cursor: pointer;
     position: relative;
     left: 80px;
@@ -253,7 +258,8 @@ main{
 }
 .sponsor1{
     display: flex;
-    margin-left: 4.5rem;
+    align-items: flex-start;
+    /* margin-left: 4.5rem; */
     /* background-color: red; */
 }
 /* .para p{
@@ -266,35 +272,43 @@ main{
     background-color: red;
 }  */
 .sponsor1 img{
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     object-fit: cover;
     border-radius: 0.7rem;
     cursor: pointer;
     position: relative;
-    left: 68px;
+    left: 60px;
     /* margin-left: 20px; */
 }
-.sponsor1 p{
+.sponsor1 .para p{
    font-size: 18px;
-   position: relative;
-   left: 15px;
+  position: relative;
+   left: -2px;
    top: 25px;
+}
+.sponsor1:hover{
+    background-color: blue;
+}
+.sponsor1:hover .para p{
+    background-color: blue;
 }
 #tolka{
     font-size: 15px;
+    background-color: transparent;
 }
-.rightsidebar hr{
+/* .rightsidebar hr{
     /* margin-right: 1rem; */
-    margin-left: 7.9rem;
-}
+    /* margin-left: 7.9rem; */
+
 .upper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .write {
     display: flex;
-    margin-left: 7.9rem;
+    /* margin-left: 7.9rem; */
+  
 }
 .write p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -313,20 +327,23 @@ main{
     margin-left: 10px;
 }
 .down{
-    margin-left: 7.9rem;
+    /* margin-left: 7.9rem; */
+    margin-left: 2rem;
+    position: relative;
 }
-.down #one::after{
+.down a::after{
     content: '';
-    display: block;
+    display: inline-block;
     background-color: rgb(59, 204, 59);
     border: 2px solid white;
     height: 7px;
     width: 7px;
     border-radius: 50%;
-    position: relative;
-    left: -115px;
-    top: 7px;
-}
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}    
+/* }
 .down #two::after{
     content: '';
     display: block;
@@ -336,7 +353,7 @@ main{
     width: 7px;
     border-radius: 50%;
     position: relative;
-    left: -135px;
+    left: -150px;
     top: 7px;
 }
 .down #three::after{
@@ -398,7 +415,7 @@ main{
     position: relative;
     left: -72px;
     top: 8px;
-}
+} */
 .down a{
     text-decoration: none;
     display: flex;
@@ -420,7 +437,8 @@ main{
     border-radius: 0.5rem;
 }
 .conversation{
-    margin-left: 9.5rem;
+    /* margin-left: 9.5rem; */
+    margin-left: 2rem;
 }
 .conversation p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
