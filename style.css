@@ -6,7 +6,6 @@
   
 }
 header{
-    /* position: sticky; */
     position: fixed;
     left: 0;
     right: 0;
@@ -58,20 +57,16 @@ header{
     background-color: white;
     display: flex;
     justify-content: center;
-    /* width: 40%; */
-    /* margin-left: 8rem; */
-    /* display: flex;
-    justify-content: space-between; */
-    /* width: 41%; */
-    /* width: 550px; */
+    align-items: center;
     max-width: 500px;
 }
 
 .icons a{
     background-color: white;
+    /* max-width: 500px; */
     text-decoration: none;
-    /* margin-left: 2rem; */
-    padding-left: 2em;
+    margin-left: 2rem;
+    /* padding-left: 2em; */
     
 }
 .icons a img:hover{
@@ -267,51 +262,31 @@ main{
     left: 80px;
     margin-left: 70px;
 }
-.sponsor1{
+/* .sponsor1{
     display: flex;
     align-items: flex-start;
     /* margin-left: 4.5rem; */
-    /* background-color: red; */
+    /* background-color: red; 
+} */
+.sponsor1 a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: left;
+    color:black;
+    padding-right: 2em;
 }
-/* .para p{
-    background-color: red;
-} */
- /* .sponsor1 :hover + .forimg ,.para{
-    background-color: red;
-} */
-/* .sponsor1:hover +.para p{
-    background-color: red;
-}  */
+.sponsor1 a:hover{
+    background-color: rgb(199, 188, 188);
+    border-radius: 0.7rem;
+}
 .sponsor1 img{
     height: 100px;
     width: 100px;
     object-fit: cover;
     border-radius: 0.7rem;
     cursor: pointer;
-    position: relative;
-    left: 60px;
-    /* margin-left: 20px; */
 }
-.sponsor1 .para p{
-   font-size: 18px;
-  position: relative;
-   left: -2px;
-   top: 25px;
-}
-.sponsor1:hover{
-    background-color: blue;
-}
-.sponsor1:hover .para p{
-    background-color: blue;
-}
-#tolka{
-    font-size: 15px;
-    background-color: transparent;
-}
-/* .rightsidebar hr{
-    /* margin-right: 1rem; */
-    /* margin-left: 7.9rem; */
-
 .upper{
     display: flex;
     justify-content: space-around;
@@ -449,8 +424,7 @@ main{
     border-radius: 0.5rem;
 }
 .conversation{
-    /* margin-left: 9.5rem; */
-    margin-left: 2rem;
+    padding-right: 2em;
 }
 .conversation p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
