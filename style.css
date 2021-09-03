@@ -6,20 +6,31 @@
   
 }
 header{
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     right: 0;
     top: 0;
     z-index: 5;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
+.navinner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "f i  a";
     background-color: white;
-    /* width: 100%; */
+}
+/* .navbar{
+    /* display: flex;
+    justify-content: space-between; */
+    /* flex-direction: column; */
+    /* background-color: white;
+   width: 100%; 
+}  */
+.lg{
+    grid-area: f;
 }
 .logo{
     background-color: white;
+   
 }
 .logo img{
     background-color:transparent;
@@ -52,9 +63,12 @@ header{
     outline: none;
    
 }
+.ic{
+    grid-area: i;
+}
 
 .icons{
-    background-color: white;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,12 +76,10 @@ header{
 }
 
 .icons a{
-    background-color: white;
-    /* max-width: 500px; */
+    background-color: transparent;
     text-decoration: none;
-    margin-left: 2rem;
-    /* padding-left: 2em; */
-    
+    display: inline-block;
+    padding: 0 0.7em;
 }
 .icons a img:hover{
       padding-left: 20px;
@@ -89,13 +101,6 @@ header{
 
 .icons  img{
     background-color: white;
-    /* width: 100%; */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-evenly; */
-    /* margin-left: 2.2rem; */
-    /* margin-left: 1rem;
-    margin-right: 1rem; */
     margin-top: 7px;
     padding-left: 20px;
     padding-right: 20px;
@@ -149,9 +154,14 @@ header{
     border-radius: 50%;
     /* margin-right: 85px; 
 }  */
-
+.ac{
+    grid-area: a;
+}
 .account{
     background-color: white;
+    display: flex;
+    justify-content: flex-end;
+   
 }
 .account a{
     background-color: white;
@@ -164,7 +174,7 @@ header{
 }
 .account  span{
     position: relative;
-    top: -10px;
+    /* top: -10px; */
     background-color: white;
 }
 #mypic{
@@ -173,11 +183,10 @@ header{
     object-fit: cover;
     border-radius: 50%;
     cursor: pointer;
-    
 }
 #apps {
     border: 2px solid rgb(235, 231, 231);
-   width: 30px;
+    width: 30px;
     border-radius: 50%;
 }
 #message{
@@ -191,7 +200,7 @@ header{
     border-radius: 50%;
 }
 .belllss{
-    margin-right: 30px;
+    margin-right: 20px;
 }
 /*****************************************Main*************************************/
 main{
@@ -213,7 +222,7 @@ main{
     grid-area: c;
 }
 .leftsidebar{
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-left: 1.5rem;
    }
 .leftsidebar a{
@@ -241,7 +250,7 @@ main{
 
 /**********************************************Right Sidebar**************************************/
 .rightsidebar{
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     /* margin-right: 1.5rem; */
     /* right: 0; */
     overflow-x: hidden;
@@ -445,8 +454,12 @@ main{
 }
 /*********************************** Center Part *********************************/
 .centerpart{
-   margin-top: 1rem;
+   margin-top: 1.5rem;
    max-width: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 } 
 /* .cupper{
     display: flex;
