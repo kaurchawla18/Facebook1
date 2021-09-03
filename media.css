@@ -1,0 +1,28 @@
+@media screen and (max-width:1090px){
+    .leftsidebar{
+       display: none;
+    }
+    .rightsidebar{
+        display: none;
+    }
+    /* .navbar .logo{
+        display: none;
+    }
+    .navbar .account{
+        display: none;
+    } */
+}
+@media screen and (max-width:512px) {
+    /* .navbar{
+        overflow-x: hidden;
+    } */
+    body{
+        overflow-x: hidden;
+    }
+     .navbar .logo{
+        display: none;
+    }
+    .navbar .account{
+        display: none;
+    }
+}
