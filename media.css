@@ -1,28 +1,112 @@
-@media screen and (max-width:1090px){
+@media screen and (max-width:1311px) {
+    .rightsidebar{
+        transform: translateX(20%);
+        pointer-events: none;
+    }
+}
+
+@media screen and (max-width:1167px){
     .leftsidebar{
        display: none;
     }
+    .logo input{
+        display: none;
+    }
+    .account #apps{
+        display: block;
+    }
+    .rightsidebar{
+        transform: translateX(10%);
+    }
+    .centerpart{
+        /* position: absolute;
+        left: 10px; */
+        /* display: flex;
+        justify-content: flex-start; */
+        position: absolute;
+        left: 150px;
+    }
+    .navinner .icons{
+        position: absolute;
+        left: 150px;
+    }
+   
+}
+/* @media screen and (max-width:1167px) {
+.rightsidebar{
+    margin-right: 0px;
+}
+.centerpart{
+    /* position: absolute;
+    left: 10px; */
+    /* display: flex;
+    justify-content: flex-start; */
+    /* position: absolute;
+    left: 150px;
+}
+.navinner .icons{
+    position: absolute;
+    left: 150px;
+}
+
+    
+} */
+@media screen and (max-width:951px) {
     .rightsidebar{
         display: none;
+        
     }
-    /* .navbar .logo{
+    .account #message{
         display: none;
     }
-    .navbar .account{
+    .account #bell{
         display: none;
-    } */
+    }
+    .account span{
+        display: none;
+    }
+    
 }
-@media screen and (max-width:512px) {
-    /* .navbar{
-        overflow-x: hidden;
-    } */
+@media screen and (max-width:760px) {
+    .account .hidepic{
+        display: none;
+    }
+    .icons a{
+        display: none;
+    }
+    .account #menu{
+        display: block;
+    }
+}
+@media screen and (max-width:666px) {
+    .centerpart{
+        position: absolute;
+        left: 50px;
+    }
+    
+}
+@media screen and (max-width:549px) {
     body{
         overflow-x: hidden;
     }
-     .navbar .logo{
+    /* .navinner .logo{
+        display: none;
+    } */
+    /* .navinner .account{
+        display: none;
+    } */
+    .rightsidebar{
         display: none;
     }
-    .navbar .account{
-        display: none;
+    .centerpart{
+        margin-top: 2rem;
+        position: absolute;
+        left: 0px;
+        top: 30px;
     }
+    /* .navinner .icons{
+        position: absolute;
+        left: 0px;
+        background-color: white;
+    } */
 }
